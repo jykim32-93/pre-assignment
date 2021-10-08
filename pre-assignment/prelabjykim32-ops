@@ -1,0 +1,13 @@
+$TTL 86400
+ @   IN  SOA     host.prelabjykim32.ops. hostmaster.prelabjykim32.ops. (
+         2019112201  ;Serial
+         3600        ;Refresh
+         1800        ;Retry
+         604800      ;Expire
+         86400       ;Minimum TTL
+);
+@       IN      NS      host.prelabjykim32.ops.
+host    IN      A       192.168.12.10
+caching IN 	A	192.168.12.20
+slave1	IN	A	192.168.12.21
+slave2	IN	A	192.168.12.22

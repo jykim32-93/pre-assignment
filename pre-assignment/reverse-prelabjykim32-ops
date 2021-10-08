@@ -1,0 +1,10 @@
+$TTL    3D
+@       IN      SOA     host.prelabjykim32.ops.      hostmaster.prelabjykim32.ops.(
+                2018042901       ; Serial
+                8H      ; Refresh
+                2H      ; Retry
+                1W      ; Expire
+                1D      ; Negative Cache TTL
+);
+@       IN      NS      host.prelabjykim32.ops.
+1       IN      PTR     host.prelabjykim32.ops.
